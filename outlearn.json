@@ -16,7 +16,7 @@
   ],
 
   "modules" : [
-    {"olm" : "./modules/docker-compose-setup.md"}
+    {"olm" : "./modules/docker-compose-jenkins-slave.md"}
   ],
 
   "assets" : [

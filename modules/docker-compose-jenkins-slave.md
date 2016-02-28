@@ -1,11 +1,11 @@
 <!--
 {
-"name": "docker-compose-setup",
+"name": "docker-compose-jenkins-slave",
 "version" : "0.1",
-"title" : "Docker Compose Setup",
-"description" : "Get setup with Docker Compose",
-"homepage" : "https://github.com/ianmiell/outlearn-modules",
-"freshnessDate" : 2015-07-08,
+"title" : "Docker Compose Jenkins Slave",
+"description" : "Set up a Jenkins SSH slave in Docker Compose",
+"homepage" : "https://github.com/ianmiell/outlearn-docker-compose-jenkins-slave",
+"freshnessDate" : 2016-02-28,
 "license" : "CC BY 4.0"
 }
 -->
