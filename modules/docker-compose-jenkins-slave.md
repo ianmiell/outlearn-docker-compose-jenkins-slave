@@ -121,7 +121,14 @@ In brief, this script retrieves the credentials set up on the server, specifies 
 
 ## The 'jenkinsslave1' Container
 
-TODO
+The 'jenkinsslave1' is very simple: it contains a Dockerfile which sets up git on a standard slave image:
+
+```
+FROM evarga/jenkins-slave
+RUN apt-get update -y && apt-get install -y git
+```
+
+Bear in mind that you could configure this to run any kind of weird and wonderful configuration of software that works for your Jenkins job, eg an old version of Java, or a particular version of Python.
 
 
 <!-- @section -->
