@@ -1,0 +1,29 @@
+{
+  "olpVersion" : "0.5",
+
+  "paths" : [
+    {
+      "name" : "docker-compose-jenkins-slave",
+      "title" : "Docker Compose with Jenkins and a Slave",
+      "description" : "Get to grips with Docker Compose using Jenkins",
+      "privacy" : "public",
+      "pages" : [
+        {"page" : "./pages/welcome.md"},
+        {"module" : "my-outlearn-module"},
+        {"page" : "./pages/closing.md"}
+      ]
+    }
+  ],
+
+  "modules" : [
+    {"olm" : "./modules/docker-compose-setup.md"}
+  ],
+
+  "assets" : [
+    {
+      "name" : "stream",
+      "contentType" : "image/jpeg",
+      "location" : "assets/stream.jpg"
+    }
+  ]
+}
